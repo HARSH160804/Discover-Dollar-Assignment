@@ -71,7 +71,7 @@ Application is live on the VM
 | Reverse Proxy     | Nginx                     |
 | CI/CD             | GitHub Actions            |
 | Image Registry    | Docker Hub                |
-| Cloud Platform    | Ubuntu VM (AWS/Azure/GCP) |
+| Cloud Platform    | Ubuntu VM (AWS)           |
 
 ---
 
