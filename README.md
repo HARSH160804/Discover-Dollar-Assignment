@@ -261,6 +261,8 @@ The tutorial created before the restart should still be present in the response.
 
 ![Application running on AWS EC2 instance](screenshots/01_app_running1_aws.png)
 
+![Application running on AWS EC2 instance - CRUD operations](screenshots/01_app_running2_aws.png)
+
 ### Running Containers on EC2
 
 ![Output of docker compose ps on the EC2 instance showing all running containers](screenshots/02_docker_ps_ec2.png)
