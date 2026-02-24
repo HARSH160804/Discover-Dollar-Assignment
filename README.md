@@ -257,27 +257,27 @@ The tutorial created before the restart should still be present in the response.
 
 ## Screenshots
 
-> Replace the placeholders below with actual screenshots after deployment.
+### Application Running on AWS
+
+![Application running on AWS EC2 instance](screenshots/01_app_running1_aws.png)
+
+### Running Containers on EC2
+
+![Output of docker compose ps on the EC2 instance showing all running containers](screenshots/02_docker_ps_ec2.png)
 
 ### CI/CD Pipeline Execution
 
-<!-- Screenshot: GitHub Actions workflow run showing successful build and deploy stages -->
+![GitHub Actions workflow run showing successful build and deploy stages](screenshots/03_github_actions_ci_cd.png)
 
 ### Docker Hub Images
 
-<!-- Screenshot: Docker Hub repository showing mean-frontend and mean-backend images -->
+![Docker Hub repository showing mean-frontend and mean-backend images](screenshots/04_docker_hub_images.png)
 
-### Running Containers on VM
+### Nginx Reverse Proxy Configuration
 
-<!-- Screenshot: Output of `docker compose ps` on the Ubuntu VM showing all 4 containers -->
+![Nginx reverse proxy configuration - server block and upstream routing](screenshots/05_nginx_reverse_proxy_config1.png)
 
-### Application UI
-
-<!-- Screenshot: Browser showing the Angular CRUD application at the VM's public IP -->
-
-### Nginx Reverse Proxy Setup
-
-<!-- Screenshot: Nginx configuration and proof of port 80 routing -->
+![Nginx reverse proxy configuration - location blocks and proxy settings](screenshots/05_nginx_reverse_proxy_config2.png)
 
 ---
 
